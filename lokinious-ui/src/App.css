@@ -1,0 +1,42 @@
+.App-header {
+  background-color: #282c34;
+  min-height: 30vh; /* Reduced from 100vh to 30vh */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-header h1 {
+  font-size: 2.5rem; /* Adjust this value to change the title size */
+}
+
+.Button-row {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.Button-row button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px;
+  border: none;
+  color: #282c34;
+  background-color: #61dafb;
+  transition: background-color 0.3s ease;
+}
+
+.Button-row button:hover {
+  background-color: #4caf50;
+}
+
+.Info {
+  text-align: center;
+  font-size: 18px;
+  color: #282c34;
+  margin-top: 20px;
+}
